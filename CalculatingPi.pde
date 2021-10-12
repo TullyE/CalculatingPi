@@ -35,7 +35,7 @@ void draw()
   textSize(50);
   fill(0);
   rotate(radians(90));
-  text("INFINITE MASS", 100, -25);
+  text("INFINITE MASS", 100, 25);
   rotate(radians(270));
   textSize(25);
   text("COLLISIONS = " + collisions, 300, 50);
