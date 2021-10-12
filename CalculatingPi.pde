@@ -35,14 +35,14 @@ void draw()
   textSize(50);
   fill(0);
   rotate(radians(90));
-  text("INFINITE MASS", 100, 25);
+  text("INFINITE MASS", 10, 25);
   rotate(radians(270));
   textSize(25);
-  text("COLLISIONS = " + collisions, 300, 50);
+  text("COLLISIONS = " + collisions, 270, 50);
   text("n = ", 150, 435);
-  text("ELASTIC COLLISIONS", 200, 375);
+  text("ELASTIC COLLISIONS", 170, 375);
   textSize(15);
-  text("Total is equal to n+1 digits of PI (in this case " + (n + 1) + ")", 200, 70);
+  text("Total is equal to n+1 digits of PI (in this case " + (n + 1) + ")", 170, 70);
 
   for (CheckBox box1 : boxes)
   {
