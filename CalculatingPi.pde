@@ -17,7 +17,6 @@ void setup()
 
 void draw()
 {
-  System.out.println(collisions);
   background(255);
   small.show();
   big.show();
