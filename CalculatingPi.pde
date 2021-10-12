@@ -17,7 +17,7 @@ Box big, small;
 void setup()
 {
   size(500, 500);
-  reset();
+  resetVars();
 }
 
 /**
@@ -85,7 +85,7 @@ void mousePressed()
         }
       }
       n = box1.getN();
-      reset();
+      resetVars();
     }
   }
 }
@@ -93,7 +93,7 @@ void mousePressed()
 /**
  *resets all the variables
  */
-void reset()
+void resetVars()
 {
   collisions = 0;
   littleVel = 0;
