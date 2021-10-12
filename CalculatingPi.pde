@@ -44,9 +44,9 @@ void draw()
   textSize(15);
   text("Total is equal to n+1 digits of PI (in this case " + (n + 1) + ")", 200, 70);
 
-  for (CheckBox box : boxes)
+  for (CheckBox box1 : boxes)
   {
-    box.show();
+    box1.show();
   }
   small.show();
   big.show();
@@ -73,18 +73,18 @@ void draw()
  */
 void mousePressed()
 {
-  for (CheckBox box : boxes)
+  for (CheckBox box1 : boxes)
   {
-    if (box.hit(mouseX, mouseY))
+    if (box1.hit(mouseX, mouseY))
     {
       for (CheckBox box2 : boxes)
       {
-        if (box2 != box)
+        if (box2 != box1)
         {
           box2.unCheck();
         }
       }
-      n = box.getN();
+      n = box1.getN();
       reset();
     }
   }
