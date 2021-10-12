@@ -16,7 +16,7 @@ Box big, small;
  */
 void setup()
 {
-  size(500, 500);
+  size(800, 500);
   resetVars();
 }
 
