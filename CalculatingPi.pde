@@ -42,7 +42,7 @@ void draw()
   text("n = ", 150, 435);
   text("ELASTIC COLLISIONS", 170, 375);
   textSize(15);
-  text("Total is equal to n+1 digits of PI (in this case " + (n + 1) + ")", 170, 70);
+  text("Total is equal to n+1 digits of PI (in this case " + (n + 1) + ")", 100, 70);
 
   for (CheckBox box1 : boxes)
   {
