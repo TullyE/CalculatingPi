@@ -1,5 +1,5 @@
-# Project Title
-add a nice description about your prject here  
-add the links here as well  
+# Calculating Pi
+This project calculates digits of pi by counting the number  
+of collisions between two boxes  
+assuming all collisions are elastic collisions    
 link 1: \<\<LINK GOES HERE\>\>  
-link 2: \<\<LINK GOES HERE\>\>
